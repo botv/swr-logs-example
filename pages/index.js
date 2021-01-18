@@ -14,7 +14,7 @@ export async function getServerSideProps({ res }) {
     props: {
       data: {
         foo: 'bar',
-        active: true,
+        // active: true,
         n: 1,
       }
     }
