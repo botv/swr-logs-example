@@ -13,7 +13,7 @@ export async function getServerSideProps({ res }) {
   return {
     props: {
       data: {
-        name: 'Meta Labs',
+        foo: 'bar',
         active: true,
         domain: 'dev.metalabs.io',
       }
