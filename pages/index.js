@@ -15,7 +15,7 @@ export async function getServerSideProps({ res }) {
       data: {
         foo: 'bar',
         active: true,
-        domain: 'dev.metalabs.io',
+        n: 1,
       }
     }
   };
