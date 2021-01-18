@@ -9,7 +9,7 @@ export async function getServerSideProps({ res }) {
 
   res.setHeader(
     'Cache-Control',
-    'public, s-maxage=10, stale-while-revalidate=60, stale-if-error=86400',
+    'public, s-maxage=1, stale-while-revalidate=59',
   );
 
   const data = {
@@ -36,11 +36,9 @@ export async function getServerSideProps({ res }) {
     // id: 'byiGC2l_6'
   }
 
-  console.log(sizeof(data))
-
   return {
     props: {
-      data: new Date()
+      data
     }
   };
 }
