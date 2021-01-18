@@ -40,7 +40,7 @@ export async function getServerSideProps({ res }) {
 
   return {
     props: {
-      data
+      data: new Date()
     }
   };
 }
