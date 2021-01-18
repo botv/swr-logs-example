@@ -1,5 +1,5 @@
 export default function Index({ date }) {
-  return date;
+  return `${date}`;
 }
 
 export async function getServerSideProps({ res }) {
