@@ -11,8 +11,7 @@ export async function getServerSideProps({ res }) {
   return {
     props: {
       data: {
-        foo: 'bar',
-        timestamp: new Date()
+        foo: 'bar'
       }
     }
   };
