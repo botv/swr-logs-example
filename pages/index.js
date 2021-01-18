@@ -12,11 +12,7 @@ export async function getServerSideProps({ res }) {
 
   return {
     props: {
-      data: {
-        foo: 'bar',
-        // active: true,
-        n: 1,
-      }
+      data: new Date()
     }
   };
 }
