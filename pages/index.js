@@ -1,5 +1,3 @@
-import sizeof from 'object-sizeof';
-
 export default function Index({ data }) {
   return JSON.stringify(data);
 }
